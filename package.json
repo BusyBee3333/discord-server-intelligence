@@ -1,0 +1,15 @@
+{
+  "name": "discord-server-intelligence",
+  "version": "1.0.0",
+  "description": "Weekly Discord server health analysis with AI-generated infographic reports",
+  "type": "module",
+  "main": "src/analyze.mjs",
+  "scripts": {
+    "analyze": "node src/analyze.mjs",
+    "report": "node src/generate-report.mjs",
+    "full": "node src/analyze.mjs && node src/generate-report.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

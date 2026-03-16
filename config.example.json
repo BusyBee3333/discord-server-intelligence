@@ -1,0 +1,16 @@
+{
+  "discord": {
+    "botToken": "YOUR_DISCORD_BOT_TOKEN",
+    "guildId": "YOUR_GUILD_ID",
+    "reportChannelId": "YOUR_CHANNEL_ID"
+  },
+  "gemini": {
+    "apiKey": "YOUR_GEMINI_API_KEY"
+  },
+  "analysis": {
+    "hotThresholdDays": 2,
+    "hotThresholdMessages": 5,
+    "deadThresholdDays": 30,
+    "lookbackMessages": 50
+  }
+}
